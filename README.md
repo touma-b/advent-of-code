@@ -1,4 +1,4 @@
-# Advent of Code Solutions in PHP
+# Advent of Code Solutions in PHP (Work in progress)
 
 Welcome to my repository containing solutions to the Advent of Code challenges implemented in PHP. Advent of Code is an annual coding event with a series of programming puzzles released daily in December.
 
