@@ -1,0 +1,14 @@
+{
+    "name": "touma-b/aoc-php",
+    "description": "Advent of Code - PHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "BT"
+        }
+    ],
+    "require-dev": {
+        "phpactor/phpactor": "^0.18.1",
+        "friendsofphp/php-cs-fixer": "^2.19"
+    }
+}
