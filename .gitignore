@@ -1,1 +1,3 @@
 vendor
+.phpactor
+.php_cs.cache
