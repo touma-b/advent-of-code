@@ -1,6 +1,6 @@
 <?php
 
-$file = file("2.txt");
+$file = file("./inputs/2.txt");
 
 $feets = 0;
 $ribbon = 0;

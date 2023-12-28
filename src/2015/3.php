@@ -83,6 +83,6 @@ function nextHouse(array $position, string $move) : array {
 }
 
 
-$input = trim(file_get_contents("3.txt"));
+$input = trim(file_get_contents("./inputs/3.txt"));
 solution1($input);
 solution2($input);

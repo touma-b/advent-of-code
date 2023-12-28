@@ -2,7 +2,7 @@
 
 $time_start = microtime(true);
 
-$input = trim(file_get_contents("1.txt"));
+$input = trim(file_get_contents("./inputs/1.txt"));
 
 // Solution 1
 $up = substr_count($input, '(');
