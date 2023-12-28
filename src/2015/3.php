@@ -18,7 +18,6 @@ function solution1(string $input): void {
     $position = $next_house_position;
   }
 
-
   echo "Houses visited by Santa: " . count($houses_visited) . PHP_EOL;
 }
 
@@ -26,7 +25,6 @@ function solution1(string $input): void {
  * Second solution
  */
 function solution2(string $input): void {
-
   $houses_visited = [];
   $santa_position = [0, 0];
   $robo_santa_position = [0 , 0];
@@ -48,7 +46,6 @@ function solution2(string $input): void {
       }
       $robo_santa_position = $robo_santa_next_house;
     }
-
   }
 
   echo "Houses visited by Santa and Robo Santa: " . count($houses_visited) . PHP_EOL;
