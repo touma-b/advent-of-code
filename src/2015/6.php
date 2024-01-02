@@ -31,7 +31,7 @@ function light(array &$grid, array $match) {
   }
 }
 
-function adujstBrightness(array &$grid, array $match) {
+function adjustBrightness(array &$grid, array $match) {
   for ($row = $match['startX']; $row <= $match['endX']; $row++) {
     for ($column = $match['startY']; $column <= $match['endY']; $column++) {
       switch ($match['verb']) {
@@ -71,7 +71,7 @@ function solution2(array $file): void {
   foreach($file as $line) {
     $line = trim($line);
     $match = getActionAndPosition($line);
-    adujstBrightness($grid, $match);
+    adjustBrightness($grid, $match);
   }
 
   // Flatten the grid using array_merge(...$grid)
